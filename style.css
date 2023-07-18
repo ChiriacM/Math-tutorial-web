@@ -14,9 +14,9 @@
 }
 
 .form-input {
-    margin-top:30px;
+    margin-top: 30px;
     background: linear-gradient(#e4ecbb, #C4DD73);
-    height:60px;
+    height: 60px;
     width: 420px;
     position: relative;
 }
@@ -31,7 +31,7 @@
 
 .form-btn {
     background: #9b56c3;
-    color:white;
+    color: white;
     font-size: 15px;
     border: none;
     height: 25px;
@@ -41,6 +41,11 @@
 .search-input {
     border: 2px solid #96AE9B;
     color: #ddab1C;
-    height:25px;
+    height: 25px;
     background: white url(img/Search.png) no-repeat right;
+    
+}
+
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
 }
