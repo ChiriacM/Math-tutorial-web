@@ -1,0 +1,46 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: 50px;
+    color: #9b56c3;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.form-input {
+    margin-top:30px;
+    background: linear-gradient(#e4ecbb, #C4DD73);
+    height:60px;
+    width: 420px;
+    position: relative;
+}
+
+.form-input-search {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.form-btn {
+    background: #9b56c3;
+    color:white;
+    font-size: 15px;
+    border: none;
+    height: 25px;
+    margin-left: 90px;
+}
+
+.search-input {
+    border: 2px solid #96AE9B;
+    color: #ddab1C;
+    height:25px;
+    background: white url(img/Search.png) no-repeat right;
+}
