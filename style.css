@@ -58,12 +58,11 @@ input[type="search"]::-webkit-search-results-decoration {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     height: 100px;
     background-image: linear-gradient(#efdfaf, #DFD240);
 }
 
-.nav-menu li  {
+.nav-menu .menu-item  {
     display: inline-block;
     padding: 0 45px;
     list-style: none;
@@ -72,24 +71,25 @@ input[type="search"]::-webkit-search-results-decoration {
     font-family: "Times New Roman", Times, serif;
 }
 
-.nav-menu li:first-child {
+.nav-menu .menu-item:first-child {
     color: #B538C5;
     font-weight: bold;
 }
 
-.nav-menu li:last-child {
+.nav-menu .menu-item:last-child {
     border: none;
 }
 
-.nav-menu a{
+.nav-menu .menu-link {
     text-decoration: none;
     color: #9b56c3;
     font-size: 20px;
     transition: font-size 0.5s;
 }
 
-.nav-menu li:not(:first-child) a:hover {
+.nav-menu .menu-item:not(:first-child) .menu-link:hover {
     font-size: 25px;
     color: #B538C5;
     font-weight: bold;
 }
+
