@@ -118,7 +118,7 @@ input[type="search"]::-webkit-search-results-decoration {
     display: flex;
     justify-content: space-between;
     padding: 25px 0;
-    gap: 20px    
+    gap: 20px;    
 }
 
 .sidebars-one {
