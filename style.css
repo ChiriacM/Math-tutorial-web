@@ -121,13 +121,7 @@ input[type="search"]::-webkit-search-results-decoration {
     gap: 20px;    
 }
 
-.sidebars-one {
-    flex-basis: 50%;
-    border: 3px solid #E0EDCC;
-    border-radius: 20px;
-}
-
-.sidebars-two {
+.sidebars-content {
     flex-basis: 50%;
     border: 3px solid #E0EDCC;
     border-radius: 20px;
@@ -146,7 +140,7 @@ input[type="search"]::-webkit-search-results-decoration {
     text-decoration: none;
 }
 
-.sidebars-one .sidebars-menu .sidebars-list  {
+.sidebars-content .sidebars-menu .sidebars-list  {
     background-image: url(img/arrow.png);
     background-repeat: no-repeat;
     background-position: 10px center;
@@ -154,7 +148,7 @@ input[type="search"]::-webkit-search-results-decoration {
     list-style: none;
 }
 
-.sidebars-two .sidebars-menu .sidebars-list {
+.sidebars-content .sidebars-menu .sidebars-list {
     background-image: url(img/check.png);
     background-repeat: no-repeat;
     background-position: 40px center;
